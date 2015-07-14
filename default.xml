@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
-
+  <remote name="akash1808" fetch="https://github.com/akash1808"/>
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
 	<project name="boto" remote="jiocloud" path="boto"/>
@@ -18,7 +18,7 @@
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
 	<project name="paramiko" remote="jiocloud" path="paramiko"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
-	<project name="python-novaclient" remote="jiocloud" path="python-novaclient"/>
+	<project revision="refs/heads/TravisCI" name="python-novaclient" remote="akash1808" path="python-novaclient"/>
 	<project name="python-swiftclient" remote="jiocloud" path="python-swiftclient"/>
 	<project name="python-glanceclient" remote="jiocloud" path="python-glanceclient"/>
 	<project name="python-neutronclient" remote="jiocloud" path="python-neutronclient"/>
