@@ -14,8 +14,8 @@
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
 	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
-	<project revision="2a0cedc1f2be151f4ff281ca3feece39717d7062" name="oslo.db" remote="akash1808" path="oslo.db"/>
-	<project revision="37cdf31830c2799c970d366c1eaf8871e0aad555" name="oslo.log" remote="openstack" path="oslo.log"/>
+	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
+	<project name="oslo.log" remote="jiocloud" path="oslo.log"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
 	<project name="paramiko" remote="jiocloud" path="paramiko"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
