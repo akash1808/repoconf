@@ -20,6 +20,7 @@
 	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
 	<project name="oslo.db" remote="openstack" path="oslo.db"/>
 	<project name="oslo.log" remote="openstack" path="oslo.log"/>
+	<project name="oslo.service" remote="openstack" path="oslo.service"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
 	<project name="paramiko" remote="jiocloud" path="paramiko"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
@@ -40,9 +41,12 @@
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="testtools" remote="jiocloud" path="testtools"/>
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
+	<project name="debtcollector" remote="openstack" path="debtcollector"/>
+	<project name="futurist" remote="openstack" path="futurist"/>
+	<project name="cachetools" remote="akash1808" path="cachetools"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
 	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
-	<project revision="0d1f1e2f4abed1f20fd5d0766d9ad25485a19312" name="autobuild" remote="akash1808" path="."/>
+	<project revision="3562a652f90cfed997147ec6216d8e56ca0fd08d" name="autobuild" remote="akash1808" path="."/>
 
 
 </manifest>
