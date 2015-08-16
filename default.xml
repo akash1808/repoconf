@@ -11,15 +11,15 @@
 	<project name="oslo.i18n" remote="jiocloud" path="oslo.i18n"/>
 	<project name="oslo.serialization" remote="jiocloud" path="oslo.serialization"/>
 	<project name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
-	<project revision="9a1327b9b96b52767e1a611413cdbf704b26b628" name="oslo.messaging" remote="openstack" path="oslo.messaging"/>
+	<project name="oslo.messaging" remote="openstack" path="oslo.messaging"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="aioeventlet" remote="overcastcloud" path="aioeventlet"/>
 	<project name="trollius" remote="overcastcloud" path="trollius"/>
 	<project name="oslo.middleware" remote="jiocloud" path="oslo.middleware"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
 	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
-	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
-	<project name="oslo.log" remote="jiocloud" path="oslo.log"/>
+	<project name="oslo.db" remote="openstack" path="oslo.db"/>
+	<project name="oslo.log" remote="openstack" path="oslo.log"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
 	<project name="paramiko" remote="jiocloud" path="paramiko"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
