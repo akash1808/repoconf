@@ -3,6 +3,7 @@
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
   <remote name="openstack" fetch="https://github.com/openstack"/>
   <remote name="akash1808" fetch="https://github.com/akash1808"/>
+  <remote name="overcastcloud" fetch="https://github.com/overcastcloud"/>
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
 	<project name="boto" remote="jiocloud" path="boto"/>
@@ -12,6 +13,9 @@
 	<project name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
 	<project revision="9a1327b9b96b52767e1a611413cdbf704b26b628" name="oslo.messaging" remote="openstack" path="oslo.messaging"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
+	<project name="aioeventlet" remote="overcastcloud" path="aioeventlet"/>
+	<project name="trollius" remote="overcastcloud" path="trollius"/>
+	<project name="oslo.middleware" remote="jiocloud" path="oslo.middleware"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
 	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
 	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
@@ -38,7 +42,7 @@
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
 	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
-	<project revision="e0fb85deb406e579b24e22223d62bdb8f37adae0" name="autobuild" remote="akash1808" path="."/>
+	<project revision="aca7a9c036924c6ed86723b6531b0f8ac6c3fd53" name="autobuild" remote="akash1808" path="."/>
 
 
 </manifest>
