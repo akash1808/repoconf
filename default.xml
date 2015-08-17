@@ -44,9 +44,11 @@
 	<project name="debtcollector" remote="openstack" path="debtcollector"/>
 	<project name="futurist" remote="openstack" path="futurist"/>
 	<project name="cachetools" remote="akash1808" path="cachetools"/>
+	<project name="wrapt" remote="akash1808" path="wrapt"/>
+	<project name="monotonic" remote="akash1808" path="monotonic"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
 	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
-	<project revision="3562a652f90cfed997147ec6216d8e56ca0fd08d" name="autobuild" remote="akash1808" path="."/>
+	<project revision="404c2b7539688732a6b8bc46cebb20ab12598450" name="autobuild" remote="akash1808" path="."/>
 
 
 </manifest>
