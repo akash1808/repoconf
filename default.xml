@@ -10,16 +10,16 @@
 	<project name="msgpack-python" remote="jiocloud" path="msgpack-python"/>
 	<project name="oslo.i18n" remote="jiocloud" path="oslo.i18n"/>
 	<project name="oslo.serialization" remote="jiocloud" path="oslo.serialization"/>
-	<project name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
-	<project name="oslo.messaging" remote="openstack" path="oslo.messaging"/>
+	<project revision="bb253eea7da1104f34fe75feef332b077367e8a9" name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
+	<project revision="9a1327b9b96b52767e1a611413cdbf704b26b628" name="oslo.messaging" remote="openstack" path="oslo.messaging"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="aioeventlet" remote="overcastcloud" path="aioeventlet"/>
 	<project name="trollius" remote="overcastcloud" path="trollius"/>
-	<project name="oslo.middleware" remote="jiocloud" path="oslo.middleware"/>
+	<project revision="55300bb30e8c1a659a829055e85168d05d3597b6" name="oslo.middleware" remote="jiocloud" path="oslo.middleware"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
 	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
-	<project name="oslo.db" remote="openstack" path="oslo.db"/>
-	<project name="oslo.log" remote="openstack" path="oslo.log"/>
+	<project revision="0beecc60b22aef9021ede31b367946629cc5791f" name="oslo.db" remote="openstack" path="oslo.db"/>
+	<project revision="37cdf31830c2799c970d366c1eaf8871e0aad555" name="oslo.log" remote="openstack" path="oslo.log"/>
 	<project name="oslo.service" remote="openstack" path="oslo.service"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
 	<project name="paramiko" remote="jiocloud" path="paramiko"/>
@@ -41,7 +41,7 @@
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="testtools" remote="jiocloud" path="testtools"/>
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
-	<project name="debtcollector" remote="openstack" path="debtcollector"/>
+	<project revision="f6320bc4c548cb5d6af4f181703ec40b12f67b9b" name="debtcollector" remote="openstack" path="debtcollector"/>
 	<project name="futurist" remote="openstack" path="futurist"/>
 	<project name="cachetools" remote="akash1808" path="cachetools"/>
 	<project name="wrapt" remote="akash1808" path="wrapt"/>
