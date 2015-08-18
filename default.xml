@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
+  <remote name="akash1808" fetch="https://github.com/akash1808"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
