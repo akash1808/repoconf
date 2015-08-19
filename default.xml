@@ -38,8 +38,9 @@
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
 	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
-	<project revision="92de47bf0aecd2f265473d5db8d7cc5ed8125784" name="autobuild" remote="akash1808" path="."/>
+	<project revision="92db58ce7f61fcaa60f1ea274796de6dc38541a7" name="autobuild" remote="akash1808" path="."/>
 	<project revision="3dcdce39e5fd17277f12621c2f91d74b69710fbb" name="nova" remote="jiocloud" path="nova"/>
+	
 
 
 
