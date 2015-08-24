@@ -39,7 +39,7 @@
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
 	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
 	<project revision="f7212151d2972ef0dd532392ff6c3c04425c0b65" name="autobuild" remote="akash1808" path="."/>
-	<project revision="ba1f0531f225de071b9eac8fa5c8aa1b99823829" name="nova" remote="jiocloud" path="nova"/>
+	<project revision="ba1f0531f225de071b9eac8fa5c8aa1b99823829" name="nova" remote="akash1808" path="nova"/>
 	
 
 
